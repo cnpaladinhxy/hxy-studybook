@@ -1,5 +1,5 @@
 /**
- * @param {number} n
+ * @param {number} 
  * @return {boolean}
  */
  var isHappy = function(n) {
@@ -33,4 +33,3 @@
     return handle(n)
 };
 
-console.log(isHappy(1111111))
