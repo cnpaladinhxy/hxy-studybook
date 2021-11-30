@@ -28,15 +28,34 @@
         //     return item;
         // }));
 
+        // 常规方式
+        // function myMap(fn){
+        //     let res = Object.assign(this.__proto__.constructor());
+        //     for(let i in this) {
+        //         if(this.hasOwnProperty(i)){
+        //             res[i] = fn(this[i], i, this)
+        //         }
+        //     }
+        //     return res
+        // }
 
-        function myMap(fn){
-            let res = Object.assign(this.__proto__.constructor());
-            for(let i in this) {
-                if(this.hasOwnProperty(i)){
-                    res[i] = fn(this[i], i, this)
+        // 递归
+        function myMap(fn) {
+            const _this = this
+            const keys = Object.keys(_this);
+            const len = keys.length;
+            let i = 0;
+            let res = Object.assign(_this.__proto__.constructor());
+            function nextFn() {
+                res[keys[i]] = fn(_this[keys[i]], i, _this)
+                i++;
+                if(i===len) {
+                    return res;
+                } else {
+                    return nextFn()
                 }
             }
-            return res
+            return nextFn()
         }
         
         Array.prototype.myMap = myMap;

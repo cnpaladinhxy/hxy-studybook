@@ -29,32 +29,60 @@
         // console.log(res);
 
 
-        function myFilter(fn){
-            let res = Object.assign(this.__proto__.constructor());
-            if(Array.isArray(this)) {
-                for(let i in Object.keys(this)) {
-                    fn(this[i], i, this) && res.push(this[i])   
+        // 常规
+        // function myFilter(fn){
+        //     let res = Object.assign(this.__proto__.constructor());
+        //     if(Array.isArray(this)) {
+        //         for(let i in Object.keys(this)) {
+        //             fn(this[i], i, this) && res.push(this[i])   
+        //         }
+        //     } else {
+        //         Object.keys(this).forEach(i => {
+        //             fn(this[i], i, this) && (res[i] = this[i])  
+        //         })
+        //     }
+        //     return res
+        // }
+
+        // 递归
+        function myFilter(fn) {
+            const _this = this
+            const keys = Object.keys(_this);
+            const len = keys.length;
+            let i = 0;
+            let res = Object.assign(_this.__proto__.constructor());
+            function nextFn() {
+                let choice = fn(_this[keys[i]], i, _this)
+                if(Array.isArray(res)){
+                    choice && res.push(_this[keys[i]])
+                } else {
+                    choice && (res[keys[i]] = _this[keys[i]])
                 }
-            } else {
-                Object.keys(this).forEach(i => {
-                    fn(this[i], i, this) && (res[i] = this[i])  
-                })
+                i++;
+                if(i===len) {
+                    return res;
+                } else {
+                    return nextFn()
+                }
             }
-            return res
+            return nextFn()
         }
         
         Array.prototype.myFilter = myFilter;
         console.log(arr.myFilter(item=>{
-            return item.age<28;
+            return item.age>20;
         }));
+
+
         // myFilter还实现了对象的遍历与返回
+
         // Object.prototype.myFilter = myFilter;
         // const obj =  {
         //     name: '张三',
         //     age: 20,
         //     gender: '男'
         // }
-        // let res = obj.myFilter(item=> item.length===undefined);
+        // let res = obj.myFilter(item=> item.length!==undefined);
         // console.log('res:' , res);
     </script>
 </body>
