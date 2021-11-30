@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>myMap</title>
+</head>
+<body>
+    <script>
+        // 作业 实现myMap和myFilter
+        let arr = [
+            {
+                name: '张三',
+                age: 20
+            },
+            {
+                name: '李四',
+                age: 25
+            },
+            {
+                name: '王五',
+                age: 28
+            },
+        ]
+        // console.log(arr.map(item=>{
+        //     console.log(item);
+        //     return item;
+        // }));
+
+        // 常规方式
+        // function myMap(fn){
+        //     let res = Object.assign(this.__proto__.constructor());
+        //     for(let i in this) {
+        //         if(this.hasOwnProperty(i)){
+        //             res[i] = fn(this[i], i, this)
+        //         }
+        //     }
+        //     return res
+        // }
+
+        // 递归
+        function myMap(fn) {
+            const _this = this
+            const keys = Object.keys(_this);
+            const len = keys.length;
+            let i = 0;
+            let res = Object.assign(_this.__proto__.constructor());
+            function nextFn() {
+                res[keys[i]] = fn(_this[keys[i]], i, _this)
+                i++;
+                if(i===len) {
+                    return res;
+                } else {
+                    return nextFn()
+                }
+            }
+            return nextFn()
+        }
+        
+        Array.prototype.myMap = myMap;
+        
+        console.log(arr.myMap(item=>{
+            item.gender = '男'
+            return item;
+        }));
+       
+
+        // myMap还实现了对象的遍历与返回
+        // Object.prototype.myMap = myMap;
+        // const obj =  {
+        //     name: '张三',
+        //     age: 20,
+        //     gender: '男'
+        // }
+        // console.log(obj.myMap(item=>typeof item==='number' ? item-=2 : (item='AA-'+item)));
+    </script>
+</body>
+</html>
