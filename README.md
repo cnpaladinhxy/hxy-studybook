@@ -17,6 +17,19 @@
 >104.二叉树的最大深度
 [掘金](https://juejin.cn/post/7049150659924328456/)
 
+### 2022--01-04
+>199.二叉树的右视图
+[掘金](https://juejin.cn/post/7049228331497046053/)
+
+>100. 相同的树
+[掘金](https://juejin.cn/post/7049240202023272461/)
+
+>101. 对称二叉树
+[掘金](https://juejin.cn/post/7049390800202891272/)
+
+>230. 二叉搜索树中第K小的元素 (执行用时较差待优化)
+[掘金] 
+
 # todos:
 
 
@@ -38,6 +51,10 @@
 >[313. 超级丑数](https://leetcode-cn.com/problems/super-ugly-number/)
 
 >[1753. 移除石子的最大得分](https://leetcode-cn.com/problems/maximum-score-from-removing-stones/)
+
+## 20220104未完成题目：
+
+>[面试题 04.05. 合法二叉搜索树](https://leetcode-cn.com/problems/legal-binary-search-tree-lcci/)
 
 
 
