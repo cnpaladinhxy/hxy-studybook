@@ -28,7 +28,8 @@
 此二题题目完全一样，就采用同一套代码解决。
 [掘金](https://juejin.cn/post/7047874611362398238/)
 
-
+104.二叉树的最大深度
+[掘金](https://juejin.cn/post/7049150659924328456/)
 
 # todos:
 
@@ -36,7 +37,7 @@
 ## 20211227未完成题目:
 
 
->692. [前K个高频单词](https://leetcode-cn.com/problems/top-k-frequent-words/)
+>[692. 前K个高频单词](https://leetcode-cn.com/problems/top-k-frequent-words/)
 给一非空的单词列表，返回前 k 个出现次数最多的单词。
 返回的答案应该按单词出现频率由高到低排序。如果不同的单词有相同出现频率，按字母顺序排序。
 
@@ -52,6 +53,5 @@
 
 [1753. 移除石子的最大得分](https://leetcode-cn.com/problems/maximum-score-from-removing-stones/)
 
-[104. 二叉树的最大深度](https://leetcode-cn.com/problems/maximum-depth-of-binary-tree/)
 
 
