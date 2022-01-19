@@ -30,6 +30,11 @@
 >230. 二叉搜索树中第K小的元素 (执行用时较差待优化)
 [掘金] 
 
+### 20220119
+>912. 排序数组
+
+
+
 ## todos:
 
 
@@ -80,3 +85,47 @@
 
 >[1319. 连通网络的操作次数](https://leetcode-cn.com/problems/number-of-operations-to-make-network-connected/)
 
+### 20220113未完成题目：
+
+>[128. 最长连续序列](https://leetcode-cn.com/problems/longest-consecutive-sequence/)
+
+>[947. 移除最多的同行或同列石头](https://leetcode-cn.com/problems/most-stones-removed-with-same-row-or-column/)
+
+>[1202. 交换字符串中的元素](https://leetcode-cn.com/problems/smallest-string-with-swaps/)
+
+>[721. 账户合并](https://leetcode-cn.com/problems/accounts-merge/)
+
+>[765. 情侣牵手](https://leetcode-cn.com/problems/couples-holding-hands/)
+
+### 20220114未完成题目:
+>[685. 冗余连接 II](https://leetcode-cn.com/problems/redundant-connection-ii/)
+
+>[239. 滑动窗口最大值](https://leetcode-cn.com/problems/sliding-window-maximum/)
+
+>[470. 用 Rand7() 实现 Rand10()](https://leetcode-cn.com/problems/implement-rand10-using-rand7/)
+
+>[11. 盛最多水的容器](https://leetcode-cn.com/problems/container-with-most-water/)
+
+>[394. 字符串解码](https://leetcode-cn.com/problems/decode-string/)
+
+### 20220117未完成题目:
+
+>[95. 不同的二叉搜索树 II](https://leetcode-cn.com/problems/unique-binary-search-trees-ii/)
+
+>[75. 颜色分类](https://leetcode-cn.com/problems/sort-colors/)
+
+>[面试题 17.14. 最小K个数](https://leetcode-cn.com/problems/smallest-k-lcci/)
+
+>[148. 排序链表](https://leetcode-cn.com/problems/sort-list/)
+
+>[剑指 Offer 21. 调整数组顺序使奇数位于偶数前面](https://leetcode-cn.com/problems/diao-zheng-shu-zu-shun-xu-shi-qi-shu-wei-yu-ou-shu-qian-mian-lcof/)
+
+### 20220119未完成题目：
+
+>[剑指 Offer 51. 数组中的逆序对](https://leetcode-cn.com/problems/shu-zu-zhong-de-ni-xu-dui-lcof/)
+
+>[排序链表](https://leetcode-cn.com/problems/sort-list/)
+
+>[1305. 两棵二叉搜索树中的所有元素](https://leetcode-cn.com/problems/all-elements-in-two-binary-search-trees/)
+
+>[面试题 04.08. 首个共同祖先](https://leetcode-cn.com/problems/first-common-ancestor-lcci/)
