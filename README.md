@@ -33,6 +33,11 @@
 ### 20220119
 >912. 排序数组
 
+>1302. 层数最深叶子节点的和
+[掘金](https://juejin.cn/post/7055546115130654734/)
+
+>23. 合并K个升序链表
+[掘金]
 
 
 ## todos:
@@ -129,3 +134,11 @@
 >[1305. 两棵二叉搜索树中的所有元素](https://leetcode-cn.com/problems/all-elements-in-two-binary-search-trees/)
 
 >[面试题 04.08. 首个共同祖先](https://leetcode-cn.com/problems/first-common-ancestor-lcci/)
+
+### 20220121未完成题目:
+
+>[1508. 子数组和排序后的区间和](https://leetcode-cn.com/problems/range-sum-of-sorted-subarray-sums/)
+
+>[327. 区间和的个数](https://leetcode-cn.com/problems/count-of-range-sum/)
+
+>[315. 计算右侧小于当前元素的个数](https://leetcode-cn.com/problems/count-of-smaller-numbers-after-self/)
