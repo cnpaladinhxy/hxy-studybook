@@ -10,7 +10,7 @@
 [掘金](https://juejin.cn/post/7047866641115250719/)
 
 >面试题 17.20. 连续中值          
->295. 数据流的中位数
+>295.数据流的中位数
 此二题题目完全一样，就采用同一套代码解决。
 [掘金](https://juejin.cn/post/7047874611362398238/)
 
@@ -21,24 +21,29 @@
 >199.二叉树的右视图
 [掘金](https://juejin.cn/post/7049228331497046053/)
 
->100. 相同的树
+>100.相同的树
 [掘金](https://juejin.cn/post/7049240202023272461/)
 
->101. 对称二叉树
+>101.对称二叉树
 [掘金](https://juejin.cn/post/7049390800202891272/)
 
->230. 二叉搜索树中第K小的元素 (执行用时较差待优化)
+>230.二叉搜索树中第K小的元素 (执行用时较差待优化)
 [掘金] 
 
 ### 20220119
->912. 排序数组
+>912.排序数组
 
->1302. 层数最深叶子节点的和
+>1302.层数最深叶子节点的和
 [掘金](https://juejin.cn/post/7055546115130654734/)
 
 >23. 合并K个升序链表
 [掘金]
 
+>1122.数组的相对排序
+[掘金](https://juejin.cn/post/7057406586561511437/)
+
+>164.最大间距
+[掘金](https://juejin.cn/post/7057410668583976973/)
 
 ## todos:
 
@@ -142,3 +147,22 @@
 >[327. 区间和的个数](https://leetcode-cn.com/problems/count-of-range-sum/)
 
 >[315. 计算右侧小于当前元素的个数](https://leetcode-cn.com/problems/count-of-smaller-numbers-after-self/)
+
+### 20220124未完成题目:
+>[53. 最大子数组和](https://leetcode-cn.com/problems/maximum-subarray/)
+
+>[56. 合并区间](https://leetcode-cn.com/problems/merge-intervals/)
+
+>[1288. 删除被覆盖区间](https://leetcode-cn.com/problems/remove-covered-intervals/)
+
+>[491. 递增子序列](https://leetcode-cn.com/problems/increasing-subsequences/)
+
+>[面试题 04.12. 求和路径](https://leetcode-cn.com/problems/paths-with-sum-lcci/)
+
+### 20220126未完成题目:
+
+>[207. 课程表](https://leetcode-cn.com/problems/course-schedule/)
+
+>[210. 课程表 II](https://leetcode-cn.com/problems/course-schedule-ii/)
+
+>[274. H 指数](https://leetcode-cn.com/problems/h-index/)
