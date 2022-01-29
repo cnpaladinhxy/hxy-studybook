@@ -39,6 +39,8 @@
 >23. 合并K个升序链表
 [掘金]
 
+### 20220126
+
 >1122.数组的相对排序
 [掘金](https://juejin.cn/post/7057406586561511437/)
 
@@ -166,3 +168,15 @@
 >[210. 课程表 II](https://leetcode-cn.com/problems/course-schedule-ii/)
 
 >[274. H 指数](https://leetcode-cn.com/problems/h-index/)
+
+### 20220128未完成题目：
+
+>[763. 划分字母区间](https://leetcode-cn.com/problems/partition-labels/)
+
+>[面试题 16.16. 部分排序](https://leetcode-cn.com/problems/sub-sort-lcci/)
+
+>[687. 最长同值路径](https://leetcode-cn.com/problems/longest-univalue-path/)
+
+>[179. 最大数](https://leetcode-cn.com/problems/largest-number/)
+
+>[347. 前 K 个高频元素](https://leetcode-cn.com/problems/top-k-frequent-elements/)
