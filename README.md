@@ -47,6 +47,17 @@
 >164.最大间距
 [掘金](https://juejin.cn/post/7057410668583976973/)
 
+### 20220211
+
+>283.移动零
+[掘金]
+
+>面试题 10.01.合并排序的数组
+[掘金]
+
+>561.数组拆分 I
+[掘金]
+
 ## todos:
 
 
@@ -180,3 +191,9 @@
 >[179. 最大数](https://leetcode-cn.com/problems/largest-number/)
 
 >[347. 前 K 个高频元素](https://leetcode-cn.com/problems/top-k-frequent-elements/)
+
+### 20220211未完成题目:
+>[1647. 字符频次唯一的最小删除次数](https://leetcode-cn.com/problems/minimum-deletions-to-make-character-frequencies-unique/)
+>[1353. 最多可以参加的会议数目](https://leetcode-cn.com/problems/maximum-number-of-events-that-can-be-attended/)
+
+
