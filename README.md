@@ -196,4 +196,13 @@
 >[1647. 字符频次唯一的最小删除次数](https://leetcode-cn.com/problems/minimum-deletions-to-make-character-frequencies-unique/)
 >[1353. 最多可以参加的会议数目](https://leetcode-cn.com/problems/maximum-number-of-events-that-can-be-attended/)
 
+### 20220216未完成题目
+>[475. 供暖器](https://leetcode-cn.com/problems/heaters/)
 
+>[81. 搜索旋转排序数组 II](https://leetcode-cn.com/problems/search-in-rotated-sorted-array-ii/)
+
+>[4. 寻找两个正序数组的中位数](https://leetcode-cn.com/problems/median-of-two-sorted-arrays/)
+
+>[300. 最长递增子序列](https://leetcode-cn.com/problems/longest-increasing-subsequence/)
+
+>[1011. 在 D 天内送达包裹的能力](https://leetcode-cn.com/problems/capacity-to-ship-packages-within-d-days/)
