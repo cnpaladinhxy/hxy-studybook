@@ -58,6 +58,18 @@
 >561.数组拆分 I
 [掘金]
 
+### 20220221
+>240.搜索二维矩阵 II
+[掘金]
+
+>705.设计哈希集合
+[掘金]
+
+>706.设计哈希映射
+[掘金]
+
+
+
 ## todos:
 
 
@@ -206,3 +218,29 @@
 >[300. 最长递增子序列](https://leetcode-cn.com/problems/longest-increasing-subsequence/)
 
 >[1011. 在 D 天内送达包裹的能力](https://leetcode-cn.com/problems/capacity-to-ship-packages-within-d-days/)
+
+### 20220219未完成题目
+>[318. 最大单词长度乘积](https://leetcode-cn.com/problems/maximum-product-of-word-lengths/)
+
+>[979. 在二叉树中分配硬币](https://leetcode-cn.com/problems/distribute-coins-in-binary-tree/)
+
+>[430. 扁平化多级双向链表](https://leetcode-cn.com/problems/flatten-a-multilevel-doubly-linked-list/)
+
+>[863. 二叉树中所有距离为 K 的结点](https://leetcode-cn.com/problems/all-nodes-distance-k-in-binary-tree/)
+
+### 20220221未完成题目
+>[面试题 16.25. LRU 缓存](https://leetcode-cn.com/problems/lru-cache-lcci/)
+
+>[187. 重复的DNA序列](https://leetcode-cn.com/problems/repeated-dna-sequences/)
+
+### 20220224未完成题目
+
+>[130. 被围绕的区域](https://leetcode-cn.com/problems/surrounded-regions/)
+
+>[494. 目标和](https://leetcode-cn.com/problems/target-sum/)
+
+>[473. 火柴拼正方形](https://leetcode-cn.com/problems/matchsticks-to-square/)
+
+>[39. 组合总和](https://leetcode-cn.com/problems/combination-sum/)
+
+>[51. N 皇后](https://leetcode-cn.com/problems/n-queens/)
